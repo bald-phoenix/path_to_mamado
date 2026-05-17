@@ -1,2 +1,6 @@
-# path_to_mamado
-Repo que contiene el zip para armar una app en vercel 
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
+
+module.exports = nextConfig;
